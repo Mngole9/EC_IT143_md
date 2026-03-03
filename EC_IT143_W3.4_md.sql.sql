@@ -6,16 +6,16 @@ and increased buisness cmplexity as well as metadata queries using the system in
 MODIFICATION LOG:
 Ver      Date        Author        Description
 -----   ----------   -----------   -------------------------------------------------------------------------------
-1.0     07/10/2025  Mangole Dorothy       1. created this script to answer eight AdventureWorks Questions for IT143-week 3.4 assignment
+1.0     3/3/2026  Mangole Dorothy       1. created this script to answer eight AdventureWorks Questions for IT143-week 3.4 assignment
 
 
 RUNTIME: 
-Approx. 2–3 minutes total depending on system performance.
+Approx. 2â€“3 minutes total depending on system performance.
 
 
 NOTES: 
  This script includes SQL queries that answer a set of business and metadata
-questions from the AdventureWorks database. Each question (Q1–Q8) is clearly 
+questions from the AdventureWorks database. Each question (Q1â€“Q8) is clearly 
 commented, followed by the corresponding SQL answer
 ******************************************************************************************************************/
 
@@ -160,4 +160,5 @@ JOIN sys.columns AS c
 WHERE c.name = 'SalesOrderID'
 ORDER BY s.name, v.name;
 GO
+
 SELECT GETDATE() AS my_date;
