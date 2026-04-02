@@ -1,0 +1,11 @@
+-- =============================================
+-- EC_IT143_W4.2_simpsons_s5.1_md.sql
+-- Step 5.1: Turn the view into a table.
+-- =============================================
+
+USE mycommunitiesDB;
+GO
+
+SELECT * 
+INTO tbl_Simpsons_CharactersByDepartment
+FROM vw_Simpsons_CharactersByDepartment;
